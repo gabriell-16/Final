@@ -1,0 +1,213 @@
+body
+{
+    display: grid;
+    place-items:center;
+    height: 100vh;
+    background: linear-gradient(0, #1b1e26 6%,
+    #303440 95%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#txt
+{
+    text-align:left;   
+}
+
+#text
+{
+    display: flex;
+    background-color: #84ede8;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 20px;  
+} 
+
+table
+{
+    position: relative;
+    display: inline-table;
+    width: 400px;
+    top: -00px;
+}
+
+
+.productos
+{
+    text-align: center;
+    top: -5px;
+    left: -180px;
+    width: 500px;
+    height: 200px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.872);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(4, 182, 155);
+}
+
+.ventas{
+    text-align:center;
+    width: 500px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.872) ;
+    box-shadow: 0 0 10px rgb(4, 182, 155);
+    top:20px;
+    left: -180px;
+    border-radius: 8px;
+    color: white;
+}
+
+#resumenCompra{
+    position: relative;
+    color: #84ede8;
+    left: 200px;
+    top: 70;
+}
+
+
+
+#btnactualizar{
+    position: relative;
+    top: 40px;
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 15px;
+    border: none;
+}
+
+#botonVaciarCarrito{
+    position: relative;
+    top: -11px;
+    left: -100px;
+    width: 150px;
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 14px;
+    border: none;
+}
+
+#botonConfirmarCompra{
+    position: relative;
+    top: -74px;
+    left: -280px;
+    width: 170px;
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 14px;
+    border: none;
+}
+
+#botonConfirmarCompra:hover,
+#botonVaciarCarrito:hover{
+    background-color: #84ede8;
+    color: black;
+    transition: 0.4s;
+}
+
+#venderP{
+    color: #84ede8;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+#venderP:hover{
+    color: black;
+    background-color: #84ede8;
+    transition: 0.4s;
+}
+
+
+.container{
+    left: 34px;
+    background:rgba(0, 0, 0, 0.872);
+    padding: 10px;
+    border-radius: 150px;
+    color:#84ede8;
+}
+
+input{
+    background: none;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    width: 0px;
+}
+
+#buscarsh
+{
+    width: 55px;
+    height: 21px;
+    border: #84ede8;
+    border-radius:50px;
+    background: rgba(0, 0, 0, 0.872);
+    color: #84ede8;
+}
+
+.container:hover input
+{
+    width: 240px;
+}
+
+.container:hover.search 
+{
+    background:rgba(0, 0, 0, 0.872);
+}
+
+#carritoTable{
+    background-color: red;
+    top: 20px;
+}
+
+#totalCompra{
+    position: relative;
+    top: -130px;
+    left:130px;
+    color: #84ede8;
+}
+
+.boton-vender{
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 14px;
+    border: none;
+}
+
+
+.boton-vender:hover,
+.boton-vender:hover{
+    background-color: #84ede8;
+    color: black;
+    transition: 0.4s;
+}
+
+.incrementar-btn,
+.decrementar-btn{
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 14px;
+    border: none;
+}
+
+#cerrar{
+    position: relative;
+    top: 45px;
+    left: 250px ;
+    background-color:black;
+    color:#84ede8;
+    border-radius: 9px;
+    box-shadow:0 0 10px rgb(4, 182, 155);
+    font-size: 14px;
+    border: none;
+}

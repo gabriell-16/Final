@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Emp-Crud.css">
+    <title>Venta de Productos</title>
+</head>
+<body>
+
+    <div id="txt">
+        <p id="text">Vender Productos</p>
+    </div>
+
+    <div class="container">
+      <label for="searchInput" id="buscar">Buscar :</label>
+      <input type="text" id="searchInput" />
+      <button type="button" id="buscarsh">Añadir</button>
+    </div><br>
+    
+    <table class="productos">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Stock</th>
+            </tr>
+        </thead>
+        <tbody id="bodyvender">
+            <!-- Aquí van los datos de la tabla -->
+        </tbody>
+    </table>
+    
+    <table class="ventas">
+        <thead>
+            <tr>
+                
+            </tr>
+        </thead>
+        <tbody id="bodyventas">
+            <!-- Aquí van los datos de la tabla -->
+        </tbody>
+    </table>
+
+    <div id="resumenCompra">
+        <label id="subtotal"></label>
+        <br>
+        <br>
+        <label id="total"></label>
+        <br>
+        <!--button id=btnactualizar></buttonid-->
+    </div>
+
+    <button id="cerrar">Cerrar Sesion</button>
+
+    <button id="botonVaciarCarrito">Vaciar Carrito</button><br>
+    <button id="botonConfirmarCompra">Confirmar Compra</button>
+    <!-- Agrega este label en tu HTML donde quieras mostrar el total acumulado -->
+    <p id="totalCompra"></p>
+    
+    <script src="vaguito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

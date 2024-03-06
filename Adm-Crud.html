@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Adm-Crud.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Registro de Productos</title>
+</head>
+<body>
+    <div id="txt"><p id="text">Registrar Productos</p></div>
+    <div class="container">
+        <label for="searchInput" id="buscar">Buscar por ID:</label>
+        <input type="text" id="searchInput" />
+        <button type="button" id="search">Buscar</button>
+    </div>
+    <div>
+        <form id="form">
+            <input type="text" id="inputProducto" class="form-control" required>
+            <label for="inputPassword5" class="form-label">Producto:</label>
+
+            <input type="number" id="inputId" class="form-control" aria-describedby="passwordHelpBlock" required>
+            <label for="inputPassword5" class="form-labelid">ID:</label>
+            
+            <input type="number" id="inputPrecio" class="form-control" aria-describedby="passwordHelpBlock" required>
+            <label for="inputPassword5" class="form-labelP">Precio:</label>
+            
+            <input type="number" id="inputStock" class="form-control" aria-describedby="passwordHelpBlock" required>
+            <label for="inputPassword5" class="form-labelS">Stock:</label>
+           
+
+            <input type="text" id="inputMarca" class="form-control" aria-describedby="passwordHelpBlock" required>
+            <label for="inputPassword5" class="form-labelM">Marca: </label>
+
+            <button type="submit" id="regprod">Registrar</button>
+            <button type="submit" id="redirec">Ir a Ventas</button>
+        </form>
+    </div>
+    <table class="tablta">
+        <thead>
+          <tr>
+            <th class="table_header">Id</th>
+            <th class="table_header">Producto</th>
+            <th class="table_header">Precio</th>
+            <th class="table_header">Stock</th>
+            <th class="table_header">Marca</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody" class="table_body">
+
+        </tbody>
+      </table>
+    <button id="cerrar">Cerrar Sesion</button>
+      
+      <script src="login.js"></script>
+      <script src="Crud.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
